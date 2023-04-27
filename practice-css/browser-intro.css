@@ -3,11 +3,13 @@ p {
 }
 
 p.info {
-	font-size: 10pt;
+	font-size: small;
+	color: #dfdfdf
 }
 
 h1 {
-	background-color: #7f7fcf;
+	text-shadow: navy 1px 0 10px;
+	color: #dfdfdf
 }
 
 h2 {
