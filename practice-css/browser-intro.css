@@ -23,8 +23,7 @@ div.zentai {
     grid-template-columns: 1fr 1fr; /* 3列にする．幅は 1:2:2 の比率*/
     grid-auto-rows: 200px 200px;        /* 高さは 100px */
     grid-gap: 10px;                     /* 隣り合う行（列）の間隔を 10px に*/
-	padding: 5px
-    width 500px;
+	padding: 5px;
 }
 
 div.box {
