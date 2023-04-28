@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+}
+h1{
+    color: white;
+    text-shadow: rgba(0, 38, 255, 0.664) 1px 0 10px;
+}
+h2{
+    color:rgb(152, 135, 239);
+    background-color: rgb(226, 199, 251);
+} 
+  a:visited {
+    color: rgb(81, 109, 149);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+h3{
+    color:rgb(5, 218, 164);
+    background-color: rgb(200, 255, 236);
+}
+p{
+    color: rgb(0, 148, 143);
+}
+

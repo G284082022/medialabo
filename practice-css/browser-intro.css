@@ -18,7 +18,7 @@ h2 {
 	margin: 5px;
 }
 
-div.zentai {
+div#zentai {
     display: grid;                      /* グリッドレイアウトにする*/
     grid-template-columns: 1fr 1fr; /* 3列にする．幅は 1:2:2 の比率*/
     grid-auto-rows: 200px 200px;        /* 高さは 100px */
@@ -27,5 +27,13 @@ div.zentai {
 }
 
 div.box {
-    background: cornsilk;
+    background: #ffefaf;
+}
+
+img#box {
+    float: right;   /* 画像を右に浮かせる */
+
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 10px 10px;
 }
