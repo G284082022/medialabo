@@ -9,9 +9,7 @@ h2{
     color:rgb(152, 135, 239);
     background-color: rgb(226, 199, 251);
 } 
-  a:visited {
-    color: rgb(81, 109, 149);
-  }
+
   
   a:hover {
     text-decoration: none;
