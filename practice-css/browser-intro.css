@@ -24,16 +24,27 @@ div#zentai {
     grid-auto-rows: 200px 200px;        /* 高さは 100px */
     grid-gap: 10px;                     /* 隣り合う行（列）の間隔を 10px に*/
 	padding: 5px;
+    
 }
 
 div.box {
     background: #ffefaf;
 }
 
-img#box {
+img.sign {
     float: right;   /* 画像を右に浮かせる */
 
     width: 100px;
     height: 100px;
     margin: 10px 0 10px 10px;
 }
+
+div.special{
+    font-family: cursive;
+    color: #3f3faf;
+    background: linear-gradient(0.25turn, white, #ffefaf);
+}
+
+
+
+
