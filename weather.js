@@ -49,3 +49,5 @@ let data = {
 console.log(data.name)
 console.log(data.main.temp_min)
 console.log(data.main.temp_max)
+const para = document.querySelector('p');
+
