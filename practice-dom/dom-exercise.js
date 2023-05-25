@@ -26,19 +26,19 @@ let div = document.querySelector('div#phototable');
 
 
 let beeLink = document.createElement('img');
-beeLink.setAttribute('href', 'taro.png');
+beeLink.setAttribute('src', 'taro.png');
 let beeLink1 = document.createElement('p');
 beeLink1.insertAdjacentElement('beforeend', beeLink);
 div-phototable.insertAdjacentElement('beforeend', beeLink1); 
 
 let beeLink2 = document.createElement('img');
-beeLink2.setAttribute('href', 'jiro.png');
+beeLink2.setAttribute('src', 'jiro.png');
 let beeLink3 = document.createElement('p');
 beeLink3.insertAdjacentElement('beforeend', beeLink2);
 div-phototable.insertAdjacentElement('beforeend', beeLink3); 
 
 let beeLink4 = document.createElement('img');
-beeLink4.setAttribute('href', 'hanako.png');
+beeLink4.setAttribute('src', 'hanako.png');
 let beeLink5 = document.createElement('p');
 beeLink5.insertAdjacentElement('beforeend', beeLink4);
 div-phototable.insertAdjacentElement('beforeend', beeLink5); 
