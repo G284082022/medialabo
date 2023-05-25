@@ -36,7 +36,7 @@ p.textContent = '七面鳥';							// p要素のテキストを設定
 h2.insertAdjacentElement('afterend', p);			// p要素をh2要素の直後に追加
 
 //// 新しい要素の追加（その2）
-let div = document.querySelector('div#sarukani');		// div#sarukani 要素を検索
+let div = document.querySelector('div#sarukani');  		// div#sarukani 要素を検索
 
 let beeLink = document.createElement('a');			// 新しい a要素を作成
 beeLink.textContent = 'ハチ';						// a要素のテキストを設定
