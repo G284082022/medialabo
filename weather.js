@@ -51,3 +51,18 @@ console.log(data.main.temp_min)
 console.log(data.main.temp_max)
 const para = document.querySelector('p');
 
+let weather = document.querySelector('span#tenki');		
+weather.textContent = (data.weather.description);	
+let max = document.querySelector('span#saikoukion');		
+max.textContent = (data.main.temp_max);	
+let min = document.querySelector('span#saiteikion');		
+min.textContent = (data.main.temp_min);	
+
+
+
+let kensaku = document.querySelector('button#kensaku');
+kensaku.addEventListener('click', where);
+
+function where(){
+}
+
