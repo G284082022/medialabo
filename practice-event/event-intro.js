@@ -5,6 +5,9 @@ let b1 = document.querySelector('button#blue');
 b1.addEventListener('click', changeH1ColorRed);
 
 //// 以下，練習5-2 でコードを追加
+let b2 = document.querySelector('button#random');
+b2.addEventListener('click', changeBackgroundColorRandom);
+
 
 
 ////////////////////////////////////////////////////////
@@ -17,6 +20,7 @@ function changeH1ColorRed() {
 	// h1 の文字を青色に設定
 	h1.style.color = 'blue';
 }
+
 
 function changeBackgroundColorRandom() {
 	// ランダムな RGB の色
