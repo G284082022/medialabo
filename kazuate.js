@@ -53,7 +53,10 @@ function hantei() {
       p3.textContent = 'まちがい. 答えはもっと大きいですよ';
     }
     kaisu=kaisu+1;
-    if(kaisu>=3){
+    if(kaisu==4){
+      p3.textContent = 'まちがい.答えは '+(kotae)+ ' でした';
+    }
+    if(kaisu>4){
       p3.textContent = '答えは '+(kotae)+ ' でした. すでにゲームは終わっています';
     }
   }
