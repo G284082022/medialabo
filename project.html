@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>今日の世界の天気</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="weather.js" defer></script>
         <link rel="stylesheet" href="project.css">
     </head>
@@ -11,9 +12,23 @@
         <label for="tosi">都市名: </label>
 	    <input type="text" name="tosi" size="20">
 	    <button id="kensaku">検索</button>
+        <h3>以下の都市から検索してください</h3>
+        <li>カイロ</li>
+        <li>モスクワ</li>
+        <li>ヨハネスブルク</li>
+        <li>北京</li>
+        <li>東京</li>
+        <li>シンガポール</li>
+        <li>シドニー</li>
+        <li>ロンドン</li>
+        <li>パリ</li>
+        <li>リオデジャネイロ</li>
+        <li>ニューヨーク</li>
+        <li>ロサンゼルス</li>
+        <p>天気： <span id="tenki">　</span></p>
+        <p>最高気温： <span id="saikoukion">◯</span>℃</p>
+        <p>最低気温： <span id="saiteikion">◯</span>℃</p>
+        <p>湿度： <span id="situdo">◯</span>%</p>
 
-        <p>天気：<span id="tenki">晴れ</span></p>
-        <p>最高気温： <span id="saikoukion">1</span>度</p>
-        <p>最低気温： <span id="saiteikion">1</span>度</p>
     </body>
 </html>
