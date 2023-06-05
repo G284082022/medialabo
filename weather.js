@@ -87,20 +87,6 @@ function where() {
          .then(finish);      // 通信の最後の処理
       }
     }
-    
-    if(tosi=='カイロ'){
-      //検索した文字を数字に変換し、その数字をidに代入する
-      let id ='360630';
-
-      // URL を設定
-      let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/'+id+'.json';
-      
-      // 通信開始
-      axios.get(url)
-       .then(showResult)   // 通信成功
-       .catch(showError)   // 通信失敗
-       .then(finish);      // 通信の最後の処理
-    }   
 }
 
 // 通信が成功した時の処理
