@@ -108,8 +108,6 @@ function showResult(resp) {
     console.log(data.main.temp_max)
     console.log(data.main.humidity)
 
-    // data.x を出力
-    console.log(data.x);
 
     let tenkiyohou = document.querySelector('span#tenki');		
     tenkiyohou.textContent = (data.weather[0].description);	
