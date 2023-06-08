@@ -107,7 +107,6 @@ function showResult(resp) {
     console.log(data.main.temp_min)
     console.log(data.main.temp_max)
     console.log(data.main.humidity)
-    const para = document.querySelector('p');
 
     // data.x を出力
     console.log(data.x);
